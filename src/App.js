@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
-import style from './App.css'
+import styles from './App.css';
+
 class App extends Component{
 
     render(){
         return(
-            <div>
-                "Hello From App.js"
+            <div className={styles.fontStyle}>
+                "Hello friend From App.js"
             </div>
         );
     }
