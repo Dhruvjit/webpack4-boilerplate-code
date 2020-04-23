@@ -6,10 +6,11 @@ const htmlWebpackPlugin = new HtmlWebPackPlugin({
 });
 
 module.exports = {
+	entry: ['@babel/polyfill', './src/index.js'],
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: {
                     loader: "babel-loader"
@@ -32,5 +33,8 @@ module.exports = {
             }
         ]
     },
-    plugins: [htmlWebpackPlugin]
+    plugins: [htmlWebpackPlugin],
+	resolve: {
+        extensions: ['*', '.js', '.jsx']
+    }
 };
