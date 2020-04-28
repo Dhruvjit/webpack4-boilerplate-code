@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="505bee5f-3735-45e9-9dd9-0907e811c15a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="505bee5f-3735-45e9-9dd9-0907e811c15a" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../monster-project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -44,7 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566568115617</updated>
       <workItem from="1566568117034" duration="13657000" />
-      <workItem from="1587285750647" duration="1365000" />
+      <workItem from="1587285750647" duration="1979000" />
     </task>
     <servers />
   </component>
@@ -52,22 +48,26 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1897" height="247" key="GridCell.Tab.0.bottom" timestamp="1587285767973">
+    <state x="743" y="278" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587291692921">
       <screen x="0" y="27" width="1920" height="989" />
     </state>
-    <state width="1897" height="247" key="GridCell.Tab.0.bottom/0.27.1920.989@0.27.1920.989" timestamp="1587285767973" />
-    <state width="1897" height="247" key="GridCell.Tab.0.center" timestamp="1587285767973">
+    <state x="743" y="278" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.989@0.27.1920.989" timestamp="1587291692921" />
+    <state width="1897" height="247" key="GridCell.Tab.0.bottom" timestamp="1587291694306">
       <screen x="0" y="27" width="1920" height="989" />
     </state>
-    <state width="1897" height="247" key="GridCell.Tab.0.center/0.27.1920.989@0.27.1920.989" timestamp="1587285767973" />
-    <state width="1897" height="247" key="GridCell.Tab.0.left" timestamp="1587285767972">
+    <state width="1897" height="247" key="GridCell.Tab.0.bottom/0.27.1920.989@0.27.1920.989" timestamp="1587291694306" />
+    <state width="1897" height="247" key="GridCell.Tab.0.center" timestamp="1587291694306">
       <screen x="0" y="27" width="1920" height="989" />
     </state>
-    <state width="1897" height="247" key="GridCell.Tab.0.left/0.27.1920.989@0.27.1920.989" timestamp="1587285767972" />
-    <state width="1897" height="247" key="GridCell.Tab.0.right" timestamp="1587285767973">
+    <state width="1897" height="247" key="GridCell.Tab.0.center/0.27.1920.989@0.27.1920.989" timestamp="1587291694306" />
+    <state width="1897" height="247" key="GridCell.Tab.0.left" timestamp="1587291694306">
       <screen x="0" y="27" width="1920" height="989" />
     </state>
-    <state width="1897" height="247" key="GridCell.Tab.0.right/0.27.1920.989@0.27.1920.989" timestamp="1587285767973" />
+    <state width="1897" height="247" key="GridCell.Tab.0.left/0.27.1920.989@0.27.1920.989" timestamp="1587291694306" />
+    <state width="1897" height="247" key="GridCell.Tab.0.right" timestamp="1587291694306">
+      <screen x="0" y="27" width="1920" height="989" />
+    </state>
+    <state width="1897" height="247" key="GridCell.Tab.0.right/0.27.1920.989@0.27.1920.989" timestamp="1587291694306" />
     <state x="651" y="245" width="618" height="550" key="find.popup" timestamp="1587289725717">
       <screen x="0" y="27" width="1920" height="989" />
     </state>

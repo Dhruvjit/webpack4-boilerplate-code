@@ -6,7 +6,7 @@ const htmlWebpackPlugin = new HtmlWebPackPlugin({
 });
 
 module.exports = {
-	entry: ['@babel/polyfill', './src/index.js'],
+    entry: ['@babel/polyfill', './src/index.js'],
     module: {
         rules: [
             {
@@ -30,11 +30,23 @@ module.exports = {
                         hashPrefix: 'my-custom-hash',
                     },
                 },
+            },
+            {
+                test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            outputPath: 'fonts/'
+                        }
+                    }
+                ]
             }
         ]
     },
     plugins: [htmlWebpackPlugin],
-	resolve: {
+    resolve: {
         extensions: ['*', '.js', '.jsx']
-    }
+    },
 };
