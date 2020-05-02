@@ -5,7 +5,14 @@ const htmlWebpackPlugin = new HtmlWebPackPlugin({
     filename: "./index.html"
 });
 
+// Try the environment variable, otherwise use root
+const ASSET_PATH = process.env.ASSET_PATH || '/';
+
 module.exports = {
+    // public path is used here to enable nested routing
+    output: {
+        publicPath: ASSET_PATH,
+    },
     entry: ['@babel/polyfill', './src/index.js'],
     module: {
         rules: [
@@ -34,12 +41,15 @@ module.exports = {
                         loader: 'file-loader',
                         options: {
                             name: '[name].[ext]',
-                            outputPath: 'fonts/'
+                            outputPath: 'assets/fonts/'
                         }
                     }
                 ]
             }
         ]
+    },
+    devServer: {
+        historyApiFallback: true,
     },
     plugins: [htmlWebpackPlugin],
     resolve: {
