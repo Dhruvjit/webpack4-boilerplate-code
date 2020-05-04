@@ -1,4 +1,4 @@
-# webpack4-boilerplate-code
+# webpack4 boilerplate code for React
 
 This boilerplate code can be used as it is to create new react project using Webpack 4 and modular css file functionality
 
