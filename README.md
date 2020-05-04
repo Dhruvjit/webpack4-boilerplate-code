@@ -12,4 +12,4 @@ npm install --save-dev @babel/plugin-proposal-export-default-from (for babel)
 
 npm install --save @babel/polyfill
 
-$ npm install file-loader --save-dev
+npm install file-loader --save-dev
